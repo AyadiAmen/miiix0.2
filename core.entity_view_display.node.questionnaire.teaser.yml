@@ -1,0 +1,21 @@
+uuid: 78dc52bb-07f2-4d4f-a84b-e269c0624440
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.questionnaire
+  module:
+    - user
+id: node.questionnaire.teaser
+targetEntityType: node
+bundle: questionnaire
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

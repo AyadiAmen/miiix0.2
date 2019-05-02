@@ -1,0 +1,21 @@
+uuid: c5ad8e12-a636-4ca9-811c-5ce85caa2746
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_h5p
+    - node.type.questionnaire
+  module:
+    - h5p
+id: node.questionnaire.field_h5p
+field_name: field_h5p
+entity_type: node
+bundle: questionnaire
+label: H5P
+description: 'Utilisez l''éditeur H5P pour créer des questionnaires et des questions interactifs.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: h5p

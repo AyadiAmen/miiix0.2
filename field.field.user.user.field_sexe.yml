@@ -1,0 +1,21 @@
+uuid: 66df16f1-08ca-4a5e-912a-de0087526cba
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_sexe
+  module:
+    - options
+    - user
+id: user.user.field_sexe
+field_name: field_sexe
+entity_type: user
+bundle: user
+label: Sexe
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

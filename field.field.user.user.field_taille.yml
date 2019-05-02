@@ -1,0 +1,24 @@
+uuid: 6fca4e45-5fd0-4a1c-a70c-f5cf288d711d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_taille
+  module:
+    - user
+id: user.user.field_taille
+field_name: field_taille
+entity_type: user
+bundle: user
+label: Taille
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.5
+  max: 2.5
+  prefix: ''
+  suffix: Mètres
+field_type: decimal

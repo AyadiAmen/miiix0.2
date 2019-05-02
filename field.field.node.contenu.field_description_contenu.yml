@@ -1,0 +1,19 @@
+uuid: aaa941fb-7232-427b-8601-fd02072a8776
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description_contenu
+    - node.type.contenu
+id: node.contenu.field_description_contenu
+field_name: field_description_contenu
+entity_type: node
+bundle: contenu
+label: Description
+description: 'Une brève description du questionnaire que vous souhaitez ajouter, il peut s’agir d’un paragraphe ou d’une seule phrase.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

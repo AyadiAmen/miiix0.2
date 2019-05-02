@@ -1,0 +1,23 @@
+uuid: 45e95096-340c-4972-8fc0-93c72efe507d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lien
+    - node.type.contenu
+  module:
+    - link
+id: node.contenu.field_lien
+field_name: field_lien
+entity_type: node
+bundle: contenu
+label: Lien
+description: 'vous pouvez ajouter des liens ici.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

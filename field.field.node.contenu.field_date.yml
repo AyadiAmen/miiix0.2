@@ -1,0 +1,21 @@
+uuid: f27516ae-cf67-4b92-b187-60f143f0f46a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.contenu
+  module:
+    - datetime
+id: node.contenu.field_date
+field_name: field_date
+entity_type: node
+bundle: contenu
+label: Date
+description: 'S''il s''agit d''une activité ou d''un événement qui aura lieu prochainement, vous pouvez ajouter la date et l''heure ici.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

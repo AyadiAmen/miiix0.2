@@ -1,0 +1,24 @@
+uuid: 353f52c3-465d-4d4a-8dcc-9e33a4c3dc06
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_poids
+  module:
+    - user
+id: user.user.field_poids
+field_name: field_poids
+entity_type: user
+bundle: user
+label: Poids
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 15
+  max: !!float 150
+  prefix: ''
+  suffix: Kg
+field_type: decimal

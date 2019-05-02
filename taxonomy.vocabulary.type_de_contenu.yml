@@ -1,0 +1,9 @@
+uuid: cf629aa8-a95a-49f2-b372-0c81fde1eaa9
+langcode: en
+status: true
+dependencies: {  }
+name: 'Type de contenu'
+vid: type_de_contenu
+description: ''
+hierarchy: 0
+weight: 0
