@@ -1,0 +1,20 @@
+uuid: 127fb476-d8c2-4229-ac0e-762c75dd18a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_poids
+field_name: field_poids
+entity_type: user
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

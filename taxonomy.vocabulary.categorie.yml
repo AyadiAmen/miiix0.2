@@ -1,9 +1,0 @@
-uuid: 2f8b6a35-006c-4e0f-b029-3e67250f1ec6
-langcode: en
-status: true
-dependencies: {  }
-name: catégorie
-vid: categorie
-description: 'à quelle catégorie appartient un contenu.'
-hierarchy: 0
-weight: 0

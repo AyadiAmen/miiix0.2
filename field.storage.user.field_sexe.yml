@@ -1,0 +1,27 @@
+uuid: a453351b-f41d-4fb4-9deb-faf9986f98c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_sexe
+field_name: field_sexe
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: M
+      label: M
+    -
+      value: F
+      label: F
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
